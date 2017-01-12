@@ -1,0 +1,24 @@
+{
+  "name": "jasmine-ajv",
+  "version": "1.0.0",
+  "description": "Jasmine JSON Schema matcher with AJV help",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Maxim Malov <m.malov.v@gmail.com>",
+  "repository": "https://github.com/maxmalov/jasmine-ajv",
+  "license": "MIT",
+  "keywords": [
+    "jasmine",
+    "ajv",
+    "jsonschema",
+    "validator"
+  ],
+  "dependencies": {
+    "ajv": "^4.10.4"
+  },
+  "devDependencies": {
+    "jest": "^18.1.0"
+  }
+}
