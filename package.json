@@ -15,6 +15,9 @@
     "jsonschema",
     "validator"
   ],
+  "engines": {
+    "node": ">=6"
+  },
   "dependencies": {
     "ajv": "^4.10.4"
   },
