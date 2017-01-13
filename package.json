@@ -1,6 +1,6 @@
 {
   "name": "jasmine-ajv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jasmine JSON Schema matcher with AJV help",
   "main": "index.js",
   "scripts": {
