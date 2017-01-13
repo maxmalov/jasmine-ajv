@@ -13,3 +13,5 @@ env:
   - NODE_ENV=test
 script:
   - npm test
+notifications:
+  email: false
