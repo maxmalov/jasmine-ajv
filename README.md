@@ -33,7 +33,7 @@ it('should has toBeJsonSchema matcher', () => {
 
 #### And you can use it even with jest
 
-You need specify [setup test file](https://facebook.github.io/jest/docs/configuration.html#setuptestframeworkscriptfile-string), if you haven'b done so. After that add the following code to your setup file:
+You need specify [setup test file](https://facebook.github.io/jest/docs/configuration.html#setuptestframeworkscriptfile-string), if you haven't done so. After that add the following code to your setup file:
 
 ```js
 
