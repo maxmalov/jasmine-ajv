@@ -1,17 +1,23 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
 env:
-  - CXX=g++-4.8
+- NODE_ENV=test
 addons:
   apt:
     sources:
-      - ubuntu-toolchain-r-test
+    - ubuntu-toolchain-r-test
     packages:
-      - g++-4.8
-env:
-  - NODE_ENV=test
+    - g++-4.8
 script:
-  - npm test
+- npm test
 notifications:
   email: false
+deploy:
+  provider: npm
+  email: m.malov.v@gmail.com
+  api_key:
+    secure: K4kIJLOfplYIbd3R8s9/VMVdo+bNUFbA4IcyLEbd4yIbWsdU/SLAsU7g6Y8/u9ie0e5NugstHPx1tdeHmvcmSK5vPhkrXGQuXTOUb9a+LzY8/DSvOikFVRaDSBPOtFV1c7ps4tzrpND0RLIVo8nLLS9npHqaSyFHkbzUdcR6QfmsSiTNfz5XUZALW4fyjT2bDPDIbutqnr6HKD26+u7GIYML5Q8XJ0kbStyJkAbf31gNDhyGI3xjcXIVtuHJYziUACxw1nJt+/87xIsrYg461ePTxerUKnWYSRnMYza53hqPnGhbPCzfEKO9246VYkBNeCxnKd1cvwD4sWnrRiR+LGBxl6nUgoJX4UWZVZ/piLyxqw8lONyKteNEM3TFx3bC/GFouiKrfwdsCFbE3FNpoIdHfFQ98C49P5B149eFsiIXfVOiwn1lKIGEhgRxjTPgmlh9JSMdj5gCPLjKyLN2iG+nYjKCkhXTs61eSjmu/Czi/L/1UdoLaonm3MigVrFlmQ/lidCOjPrNKIBuOwRuhAMJrehIJn15F5w74uEQg99oDtsWtmbtzo/QsSzCkKUsFfbQhgAigpIyMjWs+XCd9ZUp7ghNo0djGWLHbiGFe9EZyPcMD9waKe53oG9sQIHU2o/2vD8+p+Xe3pZdB2A+4yQjITttlBkKblYZucPVTIM=
+  on:
+    tags: true
+    repo: maxmalov/jasmine-ajv
