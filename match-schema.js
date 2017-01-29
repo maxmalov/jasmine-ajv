@@ -28,6 +28,3 @@ function formatSingleError(err) {
 
   return `${prefix}${err.message}`;
 }
-
-
-
