@@ -1,5 +1,7 @@
 # jasmine-ajv
 
+DEPRECATED. Use https://www.npmjs.com/package/jest-json-schema instead
+
 [![Build Status](https://travis-ci.org/maxmalov/jasmine-ajv.svg?branch=master)](https://travis-ci.org/maxmalov/jasmine-ajv)
 
 This plugin was inspired by [chai-json-schema](http://chaijs.com/plugins/chai-json-schema/) and [chai-json-schema-ajv](http://chaijs.com/plugins/chai-json-schema-ajv/).
